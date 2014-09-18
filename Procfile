@@ -87,4 +87,5 @@
 
 
 # Heroku configuration that runs your app
-web: ./dist/build/memopad/memopad production -p $PORT
+#web: ./dist/build/memopad/memopad production -p $PORT
+web: cabal run -- -p $PORT
